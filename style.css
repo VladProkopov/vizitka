@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #dedbdb;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+}
+
+.mainRU {
+    background-color: #eae9f1;
+    width: 70%;
+    box-shadow: 3px 3px 20px 3px black;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-image: url(/images/pattern2.png);
+}
+
+.banerRU {
+    background-color: #2743e3;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.banerRU a  {
+    color: white;
+}
+
+.about__me {
+    display: flex;
+    gap: 40px;
+
+    margin-top: 20px;
+
+    line-height: 35px;
+
+    border-bottom: 2px solid #adadad;
+}
+
+.about__me__img img{
+    height: 350px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.list__me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about__me__list, 
+.connection__list,
+.quality,
+.language,
+.skills  {
+    list-style: none;
+}
+
+.about__me__list li, 
+.connection__list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item1 {
+    font-size: 28px;
+    border-bottom: 1px solid #adadad;
+}
+
+.item2,
+.item3 {
+    font-size: 22px;
+}
+
+.itemh {
+    background-color: #2743e3;
+    color: white;
+    border-radius: 10px;
+}
+
+.description {
+    display: flex;
+}
+
+.me {
+    width: 350px;
+    border-right: 2px solid #adadad;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.my__education,
+.my__job {
+    padding: 10px;
+}
+
+.my__education h2,
+.my__job h2{
+    margin-bottom: 10px;
+    background-color: #2743e3;
+    color: white;
+    border-radius: 10px;
+}
+
+.job {
+    line-height: 30px
+}
+
+.job h3 {
+   font-size: 28px;
+}
+
+.job span {
+    font-size: 16px;
+}
+
+.job p {
+    font-size: 22px;
+    border-bottom: 2px solid #2743e3;
+}
+
+
+.my__education span {
+    font-size: 24px
+}
